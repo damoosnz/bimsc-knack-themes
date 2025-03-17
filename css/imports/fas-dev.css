@@ -1,4 +1,4 @@
-@import url("file-uploads.css");
-@import url("popup.css");
-@import url("ai.css");
-@import url("dev.css");
+@import url('../fas-knack-ui/file-upload.css');
+@import url("../fas-knack-custom-ui/popup.css");
+@import url("../fas-ai/ai.css");
+@import url("../fas-dev/dev.css");
