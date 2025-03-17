@@ -1,0 +1,28 @@
+/* dev */
+
+.fas-dev {
+    background: black;
+    color: white;
+}
+
+.fas-dev-container {
+    background: white !important;
+    padding-bottom: 10px; 
+    /*margin-bottom: 10px;
+    box-shadow: 0 0 0 10px white;
+     Creates a white 'border' effect */
+}
+
+.fas-ui {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Align items vertically */
+    gap: 15px; /* Space between items */
+    padding: 10px;
+    flex-wrap: wrap; /* Ensures it stays on one line unless screen is too small */
+}
+
+.fas-ui label {
+    margin-right: 5px;
+    font-weight: bold;
+}

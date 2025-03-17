@@ -1,0 +1,48 @@
+/* styles for msg */
+
+.popup-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25); /* Semi-transparent black background */
+    color: white; /* White text color */
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    z-index: 1000; /* Ensure the overlay is on top of other content */
+}
+
+.progress-bar-container {
+    position: relative;
+    width: 80%; /* Adjust as needed */
+    height: 30px; /* Height of the progress bar */
+    background-color: #f3f3f3; /* Background color of the progress bar container */
+    border-radius: 5px; /* Rounded corners (optional) */
+    margin-top: 20px; /* Space between message and progress bar */
+}
+
+.popup-progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #4caf50; /* Green progress color */
+    width: 0%; /* Start at 0% and update dynamically */
+    transition: width 0.5s ease; /* Smooth transition effect */
+}
+
+.progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 14px; /* Optional: Adjust text size */
+    z-index: 1; /* Ensure text is on top of the progress bar */
+}
