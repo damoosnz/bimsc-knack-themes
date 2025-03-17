@@ -15,6 +15,20 @@
      Creates a white 'border' effect */
 }
 
+.fas-ui {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Align items vertically */
+    gap: 15px; /* Space between items */
+    padding: 10px;
+    flex-wrap: wrap; /* Ensures it stays on one line unless screen is too small */
+}
+
+.fas-ui label {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
 /* knack */
 
 /* Style for all file inputs inside file-upload containers */
