@@ -1,3 +1,9 @@
-@import url("../fas-knack-ui/file-upload.css");
+/* Knack UI */
+@import url('../fas-knack-ui/appwide/file-upload.css');
+
+/* Knack Custom UI */
 @import url("../fas-knack-custom-ui/popup.css");
+
+/* FAS AI */
 @import url("../fas-ai/ai.css");
+
