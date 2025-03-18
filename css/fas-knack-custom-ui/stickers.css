@@ -1,0 +1,16 @@
+.fas-sticker {
+    padding: 2px 8px;          /* Padding for spacing */
+    border-radius: 12px;       /* Rounded corners */
+    font-weight: bold;         /* Bold text */
+    display: inline-block;     /* Ensures proper spacing */
+}
+
+.fas-sticker.internal {
+    background-color: #4CAF50; /* Green background */
+    color: #fff;               /* White text */
+}
+
+.fas-sticker.external {
+    background-color: #FF5733; /* Orange-red background */
+    color: #fff;               /* White text */
+}
