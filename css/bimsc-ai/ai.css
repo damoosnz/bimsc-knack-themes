@@ -1,4 +1,4 @@
-.fas-ai-button {
+.bimsc-ai-button {
     background-color: #9b59b6;
     color: white;
     border: none;
@@ -8,7 +8,7 @@
     transition: background-color 0.2s ease-in-out;
 }
 
-.fas-ai-button.hover {
+.bimsc-ai-button.hover {
     background-color: darkviolet;
 }
 
