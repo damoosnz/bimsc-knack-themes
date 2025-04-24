@@ -2,9 +2,9 @@
 @import url('../fas-knack-ui/appwide/file-upload.css');
 
 /* Knack Custom UI */
-@import url("../fas-knack-custom-ui/popup.css");
-@import url("../fas-knack-custom-ui/filter-menu.css");
-@import url("../fas-knack-custom-ui/stickers.css");
+@import url("../bimsc-knack-custom-ui/popup.css");
+@import url("../bimsc-knack-custom-ui/filter-menu.css");
+@import url("../bimsc-knack-custom-ui/stickers.css");
 
 /* FAS AI */
 @import url("../bimsc-ai/ai.css");

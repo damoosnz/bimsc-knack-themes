@@ -3,9 +3,9 @@
 */
 
 /* Knack Custom UI */
-@import url("../fas-knack-custom-ui/popup.css");
-@import url("../fas-knack-custom-ui/stickers.css");
-@import url("../fas-knack-custom-ui/filter-menu.css");
+@import url("../bimsc-knack-custom-ui/popup.css");
+@import url("../bimsc-knack-custom-ui/stickers.css");
+@import url("../bimsc-knack-custom-ui/filter-menu.css");
 
 /* FAS AI */
 @import url("../bimsc-ai/ai.css");
