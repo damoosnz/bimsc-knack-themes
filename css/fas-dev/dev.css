@@ -1,12 +1,12 @@
 /* dev */
 
-.fas-dev {
+.bimsc-knack-dev {
     background: black;
     color: white;
     font-size: 0.8em;
 }
 
-.fas-dev-container {
+.bimsc-knack-dev-container {
     background: black !important;
     color: white;
     padding-bottom: 10px; 
@@ -15,7 +15,7 @@
      Creates a white 'border' effect */
 }
 
-.fas-ui {
+.bimsc-knack-dev-ui {
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Align items vertically */
@@ -24,12 +24,12 @@
     flex-wrap: wrap; /* Ensures it stays on one line unless screen is too small */
 }
 
-.fas-ui label {
+.bimsc-knack-dev-ui label {
     margin-right: 5px;
     font-weight: bold;
 }
 
-.fas-ui table {
+.bimsc-knack-dev-ui table {
     max-width: 800px; /* Limit table width */
     width: 100%; /* Make it responsive */
     margin: 0 auto; /* Center horizontally */
